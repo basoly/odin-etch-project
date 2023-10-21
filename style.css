@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-flow:column nowrap
+}
+
 .grid-container {
 /* styling */
 display:flex;
@@ -10,6 +16,16 @@ height: 900px;
 margin-left: 0;
 margin-right: 0;
 flex-grow: 1;
+}
+
+#set-size {
+    padding: 2% 2% 2% 2%;
+    background-color: lightblue;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 1%;
+    text-align: center;
+    border-radius: 20px;
 }
 
 /* Problem: there's extra space 
